@@ -135,6 +135,6 @@ pre[class*='language-']:after {
   display: none !important;
 }
 
-code {
+code[class*=language-], pre[class*=language-] {
   font-family: JetBrains, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
 }
