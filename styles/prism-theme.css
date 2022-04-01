@@ -1,4 +1,15 @@
 /* prism theme adjustments */
+@font-face {
+	font-family: 'JetBrains';
+	font-weight: normal;
+	src: local('JetBrains'), url('./font/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'JetBrains';
+	font-weight: bold;
+	src: local('JetBrains'), url('./font/JetBrainsMono-ExtraBold.woff2') format('woff2');
+}
 
 .notion-code {
   background-color: rgba(249, 250, 251, 1);
@@ -122,4 +133,8 @@ pre[class*='language-'] > code {
 pre[class*='language-']:before,
 pre[class*='language-']:after {
   display: none !important;
+}
+
+code {
+  font-family: JetBrains, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
 }
