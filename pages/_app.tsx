@@ -5,10 +5,10 @@ import 'styles/global.css'
 import 'react-notion-x/src/styles.css'
 
 // used for code syntax highlighting (optional)
-import 'prismjs/themes/prism-tomorrow.css'
+// import 'prismjs/themes/prism-tomorrow.css'
 
 // this might be better for dark mode
-// import 'prismjs/themes/prism-okaidia.css'
+import 'prismjs/themes/prism-okaidia.css'
 
 // used for collection views selector (optional)
 import 'rc-dropdown/assets/index.css'
@@ -27,6 +27,7 @@ import 'styles/prism-theme.css'
 
 // import any languages we want to support for syntax highlighting via Notion's Code block and prismjs
 import 'prismjs/prism'
+import 'prismjs/plugins/line-numbers/prism-line-numbers.min'
 import 'prismjs/components/prism-typescript'
 import 'prismjs/components/prism-kotlin'
 import 'prismjs/components/prism-groovy'
