@@ -26,7 +26,7 @@ import 'styles/notion.css'
 import 'styles/prism-theme.css'
 
 // import any languages we want to support for syntax highlighting via Notion's Code block and prismjs
-import 'prismjs/components/prism-typescript'
+// import 'prismjs/components/prism-typescript'
 import 'prismjs/components/prism-kotlin'
 import 'prismjs/components/prism-groovy'
 import 'prismjs/components/prism-java'
