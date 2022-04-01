@@ -2,7 +2,7 @@
 @font-face {
 	font-family: 'JetBrains';
 	font-weight: normal;
-	src: local('JetBrains'), url('./font/JetBrainsMono-Regular.woff2') format('woff2');
+	src: local('JetBrains'), url('./font/JetBrainsMono-Bold.woff2') format('woff2');
 }
 
 @font-face {
