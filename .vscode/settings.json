@@ -35,6 +35,7 @@
     "**/.google.json": true
   },
   "cSpell.words": [
-    "nextjs"
+    "nextjs",
+    "prismjs"
   ]
 }

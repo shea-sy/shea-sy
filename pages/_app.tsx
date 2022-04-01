@@ -5,7 +5,7 @@ import 'styles/global.css'
 import 'react-notion-x/src/styles.css'
 
 // used for code syntax highlighting (optional)
-import 'prismjs/themes/prism-coy.css'
+import 'prismjs/themes/prism-tomorrow.css'
 
 // this might be better for dark mode
 // import 'prismjs/themes/prism-okaidia.css'
@@ -25,9 +25,14 @@ import 'styles/notion.css'
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
 
-// import any languages we want to support for syntax highlighting via Notion's
-// Code block and prismjs
-// import 'prismjs/components/prism-typescript'
+// import any languages we want to support for syntax highlighting via Notion's Code block and prismjs
+import 'prismjs/components/prism-typescript'
+import 'prismjs/components/prism-kotlin'
+import 'prismjs/components/prism-groovy'
+import 'prismjs/components/prism-java'
+import 'prismjs/components/prism-markdown'
+import 'prismjs/components/prism-mermaid'
+import 'prismjs/components/prism-json'
 
 import React from 'react'
 import { useRouter } from 'next/router'
