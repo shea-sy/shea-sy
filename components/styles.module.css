@@ -4,6 +4,18 @@
   }
 }
 
+@font-face {
+	font-family: 'JetBrains';
+	font-weight: normal;
+	src: local('JetBrains'), url('../styles/font/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'JetBrains';
+	font-weight: bold;
+	src: local('JetBrains'), url('../styles/font/JetBrainsMono-ExtraBold.woff2') format('woff2');
+}
+
 .container {
   position: absolute;
   top: 0;
@@ -175,6 +187,10 @@
 
 .githubCorner:hover .octoArm {
   animation: octocat-wave 560ms ease-in-out;
+}
+
+.notion-code {
+  font-family: JetBrains, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
 }
 
 @keyframes octocat-wave {
