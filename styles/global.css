@@ -1,3 +1,15 @@
+@font-face {
+	font-family: 'JetBrains';
+	font-weight: normal;
+	src: local('JetBrains'), url('./JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'JetBrains';
+	font-weight: bold;
+	src: local('JetBrains'), url('./JetBrainsMono-ExtraBold.woff2') format('woff2');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -30,4 +42,8 @@ body {
 .static-tweet-emoji {
   height: 1.2em !important;
   width: 1.2em !important;
+}
+
+code {
+  font-family: JetBrains, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
 }
